@@ -1,0 +1,6 @@
+Credits:
+Dawnraider - design, code
+Zhil - design
+
+Content used according to the license from the following:
+Custom Villager Trades by BlockyGoddess - https://www.planetminecraft.com/data-pack/custom-villager-trades-customize-your-villagers-modders-tool/
