@@ -1,0 +1,5 @@
+scoreboard objectives add nh_durabilityIronPick minecraft.used:minecraft.iron_pickaxe
+scoreboard objectives add nh_durabilityIronAxe minecraft.used:minecraft.iron_pickaxe
+scoreboard objectives add nh_durabilityIronShovel minecraft.used:minecraft.iron_pickaxe
+scoreboard objectives add nh_durabilityIronSword minecraft.used:minecraft.iron_pickaxe
+scoreboard objectives add nh_durabilityIronHoe minecraft.used:minecraft.iron_pickaxe

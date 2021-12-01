@@ -1,0 +1,1 @@
+function new_horizons:regen/_tick
