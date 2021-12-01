@@ -1,10 +1,3 @@
 #Load
 
-#Used for tracking health regen
-scoreboard objectives add nh_healthRegenMaxCount dummy
-scoreboard objectives add nh_minimumHungerForRegen dummy
-
-scoreboard objectives add nh_healthRegenCount dummy
-scoreboard objectives add nh_currentHunger dummy
-scoreboard objectives add nh_currentHealth dummy
-scoreboard objectives add nh_maxHealth dummy
+function new_horizons:regen/_init
