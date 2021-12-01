@@ -1,3 +1,2 @@
-#Load
-
 function new_horizons:regen/_init
+function new_horizons:durability/_init

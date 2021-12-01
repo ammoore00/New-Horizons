@@ -1,1 +1,2 @@
 function new_horizons:regen/_tick
+function new_horizons:durability/_tick
