@@ -1,4 +1,5 @@
 {
+    "replace": false,
     "values": [
         "new_horizons:_tick"
     ]
