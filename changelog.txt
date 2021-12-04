@@ -1,0 +1,17 @@
+#### Alpha ####
+## Version 0.2.0 ##
+- Added raw diamond as a new drop from diamond ore, replacing normal diamonds.
+- Added the ability to create diamonds by combining a raw diamond and an iron ingot on a smithing table
+- Added the ability to reclaim a diamond from diamond equipment in the blast furnace.
+- Changed several recipes which use iron or ghold to be cheaper given the new metal economy.
+- Changed all axes to only use 2 of their material instead of 3 (omitting the top one above the sticks)
+
+## Version 0.1.1 ##
+- Changed (increased) the durability of iron tools (note that the durability number when using advanced tooltips will not reflect this, however the durability does go down more slowly)
+
+## Version 0.1.0 ##
+- Changed iron and gold ore to smelt into nuggets instead of ingots, and increased the time required significantly.
+- Changed iron and gold equipment to smelt into iron ingots instead of nuggets, and isolated this behavior to the blast furnace.
+- Changed health to no longer cost hunger to regenerate, but it now regenerates much more slowly.
+- Changed health to require hunger to be at or above half to be able to regenerate instead of requiring it to be above 90%.
+- Changed mobs to always drop loot regardless of if they were killed by a player or not.
