@@ -1,0 +1,1 @@
+function nh_metals:durability/handle_tool_durability

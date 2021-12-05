@@ -1,1 +1,0 @@
-function new_horizons:durability/handle_tool_durability

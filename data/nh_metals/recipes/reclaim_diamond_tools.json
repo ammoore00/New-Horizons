@@ -32,7 +32,7 @@
         "item": "minecraft:diamond_horse_armor"
       }
     ],
-    "result": "minecraft:diamond",
+    "result": "minecraft:iron_ingot",
     "experience": 0.1,
     "cookingtime": 100
   }

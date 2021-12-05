@@ -5,7 +5,7 @@ execute as @a store result storage new_horizons:health_values max_health int 1 r
 execute as @a store result score @s nh_maxHealth run data get storage new_horizons:health_values max_health
 
 #Check if the player's hunger is high enough and not at max health
-execute if score @s nh_currentHunger >= @s nh_minimumHungerForRegen run execute if score @s nh_currentHealth < @s nh_maxHealth run effect give @s regeneration 1 2 true
+execute if score @s nh_currentHunger >= nh_data nh_minimumHungerForRegen run execute if score @s nh_currentHealth < @s nh_maxHealth run effect give @s regeneration 1 2 true
 
 #Reset the counter
 scoreboard players set @s nh_healthRegenCount 0

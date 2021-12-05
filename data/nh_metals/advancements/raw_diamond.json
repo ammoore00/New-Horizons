@@ -3,11 +3,11 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "new_horizons:diamond_smithing"
+                "recipe": "nh_metals:diamond_smithing"
             }
         }
     },
     "rewards": {
-        "function": "new_horizons:misc/replace_raw_diamond"
+        "function": "nh_metals:misc/replace_raw_diamond"
     }
 }
