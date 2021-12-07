@@ -8,7 +8,7 @@
 - Added raw diamond as a new drop from diamond ore, replacing normal diamonds.
 - Added the ability to create diamonds by combining a raw diamond and an iron ingot on a smithing table
 - Added the ability to reclaim a diamond from diamond equipment in the blast furnace.
-- Changed several recipes which use iron or ghold to be cheaper given the new metal economy.
+- Changed several recipes which use iron or gold to be cheaper given the new metal economy.
 - Changed all axes to only use 2 of their material instead of 3 (omitting the top one above the sticks)
 - Changed the smelting time on gold and iron back to vanilla since it was too troublesome given how demanding caves are on coal, and fuel values are not tweakable in datapacks.
 
