@@ -17,6 +17,12 @@
       "item": "minecraft:iron_sword"
     },
     {
+      "item": "minecraft:shield"
+    },
+    {
+      "item": "minecraft:shears"
+    },
+    {
       "item": "minecraft:iron_helmet"
     },
     {
@@ -45,6 +51,5 @@
     }
   ],
   "result": "minecraft:iron_ingot",
-  "experience": 0.1,
   "cookingtime": 100
 }

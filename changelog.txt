@@ -1,4 +1,9 @@
 #### Alpha ####
+## Version 0.2.1 ##
+- Added the ability to reclaim iron from shears and shields in a blast furnace.
+- Removed the experience from metal reclaiming recipes to fix an infinite xp exploit using shovels.
+- Fixed an issue where the soul lantern recipe was not changed in the last release match the regular lantern's.
+
 ## Version 0.2.0 ##
 - Added raw diamond as a new drop from diamond ore, replacing normal diamonds.
 - Added the ability to create diamonds by combining a raw diamond and an iron ingot on a smithing table
