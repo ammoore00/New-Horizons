@@ -1,9 +1,9 @@
-#Tick
+execute as @a store result score @s nh_maxHealth run attribute @s minecraft:generic.max_health get
 
-#Disable regen every tick to make sure it cannot be cheated
-gamerule naturalRegeneration false
+#Check if the player's hunger is high enough and not at max health
+execute as @a[scores={nh_currentHunger=11..}] if score @s nh_currentHealth < @s nh_maxHealth run effect give @s regeneration 1 2 true
 
-scoreboard players add @a nh_healthRegenCount 1
+#Reset the counter
+scoreboard players set @s nh_healthRegenCount 0
 
-#If enough time has elapsed, do the actual regen
-execute as @a if score @s nh_healthRegenCount >= nh_data nh_healthRegenMaxCount run function nh_regen:do_regen
+schedule function nh_regen:regen/handle_regen 10s
