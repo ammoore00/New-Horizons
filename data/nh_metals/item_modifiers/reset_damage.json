@@ -1,0 +1,18 @@
+{
+    "function": "minecraft:set_damage",
+    "damage":0.002,
+    "add":true,
+    "conditions":[
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "tag": "nh_metals:iron_tool"
+                    }
+                }
+            }
+        }
+    ]
+}
