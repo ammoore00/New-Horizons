@@ -1,14 +1,12 @@
 # Handles updates from legacy versions (0.2.0-alpha)
 
-# Cleans up objectives which are no logner used
+# Cleans up objectives which are no longer used
 scoreboard objectives remove nh_boolCheckTrue
 scoreboard objectives remove nh_boolCheckFalse
 
 scoreboard objectives remove nh_healthRegenCount
 scoreboard objectives remove nh_healthRegenMaxCount
 scoreboard objectives remove nh_minimumHungerForRegen
-
-# Removes old dummy objectives to be replaced with stat tracking objectives
 scoreboard objectives remove nh_currentHunger
 scoreboard objectives remove nh_currentHealth
 

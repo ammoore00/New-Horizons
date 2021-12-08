@@ -3,7 +3,7 @@
     "entity": "this",
     "predicate": {
         "scores": {
-            "nh_currentHunger": {
+            "nh_hunger": {
                 "min": 11
             }
         }
