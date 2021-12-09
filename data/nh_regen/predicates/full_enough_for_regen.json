@@ -1,11 +1,10 @@
 {
-    "condition": "entity_properties",
+    "condition": "entity_scores",
     "entity": "this",
-    "predicate": {
-        "scores": {
-            "nh_hunger": {
-                "min": 11
-            }
+    "scores": {
+        "nh_hunger": {
+            "min": 11,
+            "max": 20
         }
     }
 }

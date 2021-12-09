@@ -1,5 +1,6 @@
 #### Alpha ####
 ## Version 0.2.1 ##
+- Refactored a significant amount of code to work more smoothly and be less awkward to work with
 - Added the ability to reclaim iron from shears and shields in a blast furnace.
 - Changed nether gold ore to always drop 1 nugget.
 - Removed the experience from metal reclaiming recipes to fix an infinite xp exploit using shovels.
